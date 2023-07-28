@@ -1,0 +1,22 @@
+ body{
+  background:linear-gradient(120deg,#131310,#1f1f1f);
+  text-align:center;
+  color:white;
+}
+button {
+  color: blue;
+  padding: 10px;
+  background: white;
+  border-radius: 60px;
+  margin: 20px;
+  border: 0;
+  font-weight: 700px;
+  width:50%;
+  font-size: 29px;
+}
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:5px;
+}
