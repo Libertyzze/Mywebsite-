@@ -1,22 +1,329 @@
- body{
-  background:linear-gradient(120deg,#131310,#1f1f1f);
-  text-align:center;
-  color:white;
+*{
+  margin: 0;
+  padding: 0;
 }
-button {
-  color: blue;
-  padding: 10px;
-  background: white;
-  border-radius: 60px;
-  margin: 20px;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+
+  height: 90px;
+  background-color: black;
+  color: whitesmoke;
+  z-index: 1;
+
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Dancing Script', cursive;
+
+  box-sizing: border-box;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0, 2);
+  
+}
+li {
+  list-style: none;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  
+  background-color: whitesmoke;
+  z-index: 1;
+  
+  display: none;
+  background: black;
+}
+.nav li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+  padding: 13px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: black;
+
+}
+
+.bi-list {
+  font-size: 2em;
+}
+.ble {
+  color: purple;
+}
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-color: black;
+  padding-left: 1em;
+}
+.section1 > div {
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-end;
+  height: calc(100% - 8em);
+  width: 100%;
+}
+.section1 > div > h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 3.7em;
+  margin-bottom: 0.5em;
+}
+.section1 > div > p {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+.section1 > div > button {
+  background-color: purple;
+  padding: 15px 50px;
+  color: white;
   border: 0;
-  font-weight: 700px;
-  width:50%;
-  font-size: 29px;
+  border-radius: 30px;
+  margin-top: 1.7em;
+  font-size: 1.3em;
 }
-header{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    padding:5px;
+.section3 > p {
+  font-weight: 400;
+  font-size: 1.4em;
+  background-color: black;
+  color: white;
+  padding-bottom: 3em;
+  padding-left: 1em;
+}
+#slider1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+
+  background: black;
+  gap: 3em;
+  padding-bottom: 3em;
+ 
+ padding-left: 1em;
+}
+
+
+.action4 > div > p {
+  background-color: black;
+  color: white;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.action5 > div > h1{
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: 2.4em;
+  font-weight: 400;
+  
+}
+.action5 > div > p{
+  background-color: black;
+  color: white;
+  font-size: 1.4em;
+  padding-top: 1em;
+  align-items: center;
+  padding-right: 2em;
+  font-weight: 400;
+  display: flex;
+  padding-bottom: 2em;
+}
+.section5{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+  background-color: black;
+  color: white;
+  
+  padding-right: 2em;
+  overflow-x: scroll;
+  
+}
+.but button{ 
+  background-color: purple;
+ font-size: 1.3em;
+ padding: 13px 30px;
+ color: white;
+ border: 0;
+ border-radius: 20px;
+ margin-top: 1.3em;
+}
+.but{
+  background-color: black;
+}
+.whole{
+  background-color: black;
+  padding-top: 6em;
+  color: white;
+
+}
+.whole h1 {
+  width: 300;
+  padding: 0;
+  padding-top: 1em;
+padding-bottom: 1em; 
+}
+
+.whole p {
+  padding-top: 1em;
+ font-weight: 100;
+ font-size: 1.4em;
+ background-color: black;
+ color: white;
+ padding-right: 2em;
+ 
+}
+.sweet{
+  background-color: black;
+  color: white;
+}
+.sweet h1 {
+  width: 100;
+  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+.sweet p {
+  padding-top: 1em;
+ font-weight: 100;
+ font-size: 1.4em;
+ background-color: black;
+ color: white;
+ padding-right: 2em;
+}
+.jesus {
+  background-color: black;
+  color: white;
+}
+.jesus h1 {
+  width: 100;
+  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.jesus p {
+  padding-top: 1em;
+  font-weight: 100;
+  font-size: 1.4em;
+  background-color: black;
+  color: white;
+  padding-right: 2em;
+}
+.liberty2 {
+  background-color: black;
+  color: white;
+}
+.liberty2 h1{
+  width: 100;
+  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em
+}
+.liberty2 p{
+  padding-top: 1em;
+  font-weight: 100;
+  font-size: 1.4em;
+  background-color: black;
+  color: white;
+  padding-right: 2em;
+}
+.section10 p{
+ background-color: black;
+ color: white;
+ padding-top: 3em;
+ font-weight: 500;
+ 
+}
+.section10 p2{
+  background-color: black;
+  color: white;
+  font-weight: 200;
+  
+  padding-right: 2em;
+}
+.slider2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+
+  background: black;
+  gap: 3em;
+  padding-bottom: 3em;
+ 
+ padding-left: 1em;
+ padding-top: 2em;
+}
+.section11 {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+font-size: 20px;  
+  padding-right: 3em;
+  padding-left: 2em;
+}
+.section11 > div > button{
+  background-color: purple;
+  padding: 7px 7px;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  margin-top: 1.2em;
+  font-size: 1.1em;
+  
+  display: flex;
+  align-items: center;
+
+}
+
+footer {
+  background-color: #00070f;
+  color: white;
+  padding: 5em 2em;
+}
+.contact {
+  display: flex;
+  width: 100%;
+  gap: 2.3em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.contact div h2 {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.contact div i {
+  font-size: 2em;
+}
+.contact div {
+  line-height: 2;
+}
+.contact div p {
+  font-weight: 600;
+  color: #daebff;
+}
+footer > P {
+  text-align: center;
 }
